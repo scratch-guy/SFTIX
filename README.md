@@ -1,6 +1,6 @@
 # SFTNIX
 
-**SFTNIX** is a rootfs-native, POSIX-like operating system built on Linux. Authored by Tentatio (age 10), it features a custom shell, a hand-rolled init system, and a minimalist boot flow. SFTNIX embodies the UNIX philosophy through simplicity, explicit control, and composable design.
+**SFTNIX** is a rootfs-native, POSIX-like operating system built on Linux. Authored by ****** (age **), it features a custom shell, a hand-rolled init system, and a minimalist boot flow. SFTNIX embodies the UNIX philosophy through simplicity, explicit control, and composable design.
 
 ---
 

@@ -94,3 +94,5 @@ SFTNIX is a verified, bootable, POSIX-like OS with a custom shell and minimal us
 
 Landon (age \**)
 
+## Credits:
+Based on Linus Torvald's linux 0.01 rootfs

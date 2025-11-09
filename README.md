@@ -91,7 +91,7 @@ SOFTWARE.
 sudo apt update #update
 sudo apt install git #installs git package
 git clone --depth 1 https://github.com/scratch-guy/SFTIX #downloads this repository
-cd SFTIX $goes into directory, important for run.sh and init.sh
+cd SFTIX #goes into directory, important for run.sh and init.sh
 chmod +x run.sh init.sh shell #give init, boot, and shell permissions required
 ./run.sh #run boot code
 ```

@@ -1,2 +1,3 @@
 #!/bin/bash
-sh ~/SFTIX/init.sh
+cd SFTIX
+./shell

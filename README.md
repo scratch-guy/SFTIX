@@ -10,19 +10,21 @@
 - **Minimal rootfs layout** with no systemd, no Bash, no package manager
 - **Custom shell** written in C, compiled to a native ELF binary
 - **Explicit boot flow** from script to shell, no hidden logic
-- **Legacy-first engineering**: every artifact is verified, documented, and canonized
+- **Legacy-first engineering**: ment to fit constraints of early systems or feel like running on a older system.
 
 ---
 
 ## 📦 Directory Structure
 
 ```
-├──root
-|
-├── boot/       → run.sh (boot trigger)
-├── init/       → init.sh (init handoff to shell)
-├── bin/        → shell.c + shell (custom REPL)
-└── usr/bin/    → BusyBox + external commands
+root
+├──
+  |
+  |
+  ├── boot/       → run.sh (boot trigger)
+  ├── init/       → init.sh (init handoff to shell)
+  ├── bin/        → shell.c + shell (custom REPL)
+  └── usr/bin/    → BusyBox + external commands
 ```
 
 ---

@@ -17,7 +17,8 @@
 ## 📦 Directory Structure
 
 ```
-/
+├──root
+|
 ├── boot/       → run.sh (boot trigger)
 ├── init/       → init.sh (init handoff to shell)
 ├── bin/        → shell.c + shell (custom REPL)
@@ -57,6 +58,8 @@
 ---
 
 ## 📜 License
+Open-Source project. Use with credit.
+
 
 MIT License
 
@@ -85,7 +88,12 @@ SOFTWARE.
 ## 🛠️ Build Instructions
 
 ```bash
-gcc -o bin/shell bin/shell.c
+sudo apt update #update
+sudo apt install git #installs git package
+git clone --depth 1 https://github.com/scratch-guy/SFTIX #downloads this repository
+cd SFTIX $goes into directory, important for run.sh and init.sh
+chmod +x run.sh init.sh shell #give init, boot, and shell permissions required
+./run.sh #run boot code
 ```
 
 Ensure BusyBox is installed in `/usr/bin/` or symlinked appropriately.
@@ -95,7 +103,7 @@ Ensure BusyBox is installed in `/usr/bin/` or symlinked appropriately.
 ## 🧪 Example Session
 
 ```bash
-victim@LAPTOP-O1R0QL0J:~$ sh ~/linux/boot/run.sh
+user@LAPTOP-XXXXXXXX:~$ ./run.sh
 # echo hello world
 hello world
 # busybox
@@ -106,13 +114,14 @@ BusyBox v1.36.1 ...
 
 ## 🏁 Status
 
-SFTNIX is a verified, bootable, POSIX-like OS with a custom shell and minimal userland.
+SFTNIX is a verified, bootable, POSIX-like OS with a custom shell and minimal userland (shell).
 
 ---
 
 ## ✍️ Author
 
-****** (age \**)
+****** (age \**) scratch-guy
+TikTok: undertale_lover_asriel
 
 ## Credits:
-Based on Linus Torvald's linux 0.01 rootfs
+Based on Linus Torvald's linux 0.01 rootfs. (https://github.com/zavg/linux-0.01)
